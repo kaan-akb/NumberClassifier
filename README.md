@@ -1,5 +1,4 @@
 # NumberClassifier
-# Number Classifier
 
 The **NumberClassifier** class is a Java class that provides a method for classifying numbers into three categories: Positive, Negative, or Zero.
 
