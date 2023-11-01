@@ -24,17 +24,22 @@ To use the `NumberClassifier` class, follow these steps:
 
    ```java
    NumberClassifier classifier = new NumberClassifier();
+   ```
+   
+2. **Call the classify method with a number as an argument:**
 
-1. **Call the classify method with a number as an argument:**
-
+  ```java 
   int number = 42;
   String classification = classifier.classify(number);
-
+   ```
 The classify method will return a String indicating whether the number is Positive, Negative, or Zero.
 
 ## Method
 
+```java
 classify(int number): String
+```
+
 This method takes an integer number as input and returns a String indicating the classification of the number. The possible return values are:
 
 "Positive" if the number is greater than 0.
@@ -45,16 +50,17 @@ Example:
 
 Here's a simple example of using the NumberClassifier class:
 
+```java
 NumberClassifier classifier = new NumberClassifier();
 int number = 10;
 String result = classifier.classify(number);
 System.out.println("The number " + number + " is " + result);
-
+```
 
 Output:
-
+```java
 The number 10 is Positive
-
+```
 
 ## Contributing
 
